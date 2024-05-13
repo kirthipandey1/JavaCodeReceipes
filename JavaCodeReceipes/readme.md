@@ -53,4 +53,23 @@ Chapter 2 - Function Package
 		15. ToDoubleBiFunction (double applyAsDouble(T t, U u))
 		16. ToLongBiFunction (long applyAsLong(T t, U u))
  
+ Chapter 3 - Streams
  
+ 	-> Create Streams 
+ 		
+ 		-> Using Stream.of(T... values), Stream.of(T t)
+ 		
+ 		-> Arrays.stream(T[] array)
+ 		
+ 		-> Stream.iterate(T seed, UnaryOperator<T> f)
+ 		
+ 		-> Stream.generate(Supplier<T> s)
+ 		
+ 		-> Collections.stream()
+ 		
+ 	-> Range and RangeClosed
+ 		
+ 		-> IntStream.range(), LongStream.range() (Doesn't include last value)
+ 		
+ 		-> IntStream.rangeClosed(), LongStream.rangeClosed() (includes last value)
+ 		
