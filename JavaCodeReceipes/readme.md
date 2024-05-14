@@ -73,3 +73,29 @@ Chapter 2 - Function Package
  		
  		-> IntStream.rangeClosed(), LongStream.rangeClosed() (includes last value)
  		
+ Note :
+ 			If we try to print int [] as stream it will only show address. But use below way to print:
+ 			
+ 			     ->  IntStream.of(array).forEach(a-> System.out.print(a+" "));
+ 			     
+ 			     ->  Arrays.stream(array).forEach(a->System.out.print(a+" "));
+ 			     
+ 			     
+ Reduce methods:
+ 
+ 1. average()      optionalDouble
+ 
+ 2. count()        long
+ 
+ 3. max()          OptionalInt
+ 
+ 4. min()          OptionalInt
+ 
+ 5. sum()          int
+ 
+ 6. summaryStatistics   IntSummaryStatistics
+ 
+ 7. collect()           R
+ 
+ 8. reduce            int,optionalInt
+ 		
